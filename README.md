@@ -1,11 +1,12 @@
 # gulp-svg-symbol
-symbol, js
+symbol, js (подключение svg через svg)
 ------
 - `dest` — папка с генерипрваными svg
 - `example` - папка пример как подключать
 - `tmpl` - папка с подключаемыми шаблонами
 # Более подробнее https://github.com/feeel1/gulp-svg2js
 ------
+
 Статьи про SVG:
 ======
 http://css.yoksel.ru/svg-fill-and-stroke/ как изменять цвет
