@@ -1,0 +1,23 @@
+{
+  "name": "gulp-svg-symbol",
+  "version": "1.0.0",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-plumber": "^1.0.1",
+    "gulp-svg2js": "git@github.com:feeel1/gulp-svg2js.git"
+  },
+  "description": "gulp-svg-symbol",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:feeel1/gulp-svg-symbol.git"
+  },
+  "author": "Stasinskii",
+  "license": "ISC",
+  "dependencies": {
+    "path": "^0.11.14"
+  }
+}
