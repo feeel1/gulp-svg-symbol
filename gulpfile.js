@@ -1,15 +1,15 @@
 "use strict"; // Помогает увидеть где ошибка.
 
 var gulp = require('gulp');
-var svgSpriteScript = require('gulp-svg-sprite-script');
+var svgs = require('gulp-svg2js');
 
-gulp.task('createSprite', function(){
+gulp.task('svgsprite', function(){
     return gulp.src('svg/*.svg')
-        .pipe(svgSpriteScript({
-            jsTmpl: 'tmpl/icons-tmpl.js',
-            cssTmpl: 'tmpl/icons-tmpl.css'
+        .pipe(svgs({
+            jsTmpl: 'tmpl/tmpl.js',
+            cssTmpl: 'tmpl/tmpl.css'
         }))
         .pipe(gulp.dest('dest'));
 });
 
-gulp.task('default', ['createSprite']);
+gulp.task('default', ['svgsprite']);

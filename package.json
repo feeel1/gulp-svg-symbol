@@ -4,8 +4,15 @@
   "devDependencies": {
     "gulp": "^3.8.11",
     "gulp-plumber": "^1.0.1",
-    "gulp-svg2js": "git@github.com:feeel1/gulp-svg2js.git"
+    "gulp-svg2js": "https://github.com/feeel1/gulp-svg2js"
   },
+    "keywords": [
+    "gulp plugin",
+    "svg",
+    "icons",
+    "gulp-svg",
+    "symbol"
+  ],
   "description": "gulp-svg-symbol",
   "main": "gulpfile.js",
   "scripts": {
@@ -13,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:feeel1/gulp-svg-symbol.git"
+    "url": "https://github.com/feeel1/gulp-svg-symbol"
   },
   "author": "Stasinskii",
   "license": "ISC",
