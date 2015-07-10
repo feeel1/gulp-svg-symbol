@@ -9,6 +9,9 @@ symbol, js (подключение svg через svg)
 
 Статьи про SVG:
 ======
-`http://css.yoksel.ru/svg-fill-and-stroke/ как изменять цвет`
-`http://css.yoksel.ru/svg-icons/ достоинства и недостатки`
-`http://yoksel.github.io/url-encoder/ переводит Base64 в data URI`
+
+http://css.yoksel.ru/svg-fill-and-stroke/ как изменять цвет
+
+http://css.yoksel.ru/svg-icons/ достоинства и недостатки
+
+http://yoksel.github.io/url-encoder/ переводит Base64 в data URI
