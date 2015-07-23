@@ -14,20 +14,20 @@
 
 
 .icon {
-  position: relative;
+/*  position: relative;*/
   display: inline-block;
-  width: 25px;
-  height: 25px;
-  overflow: hidden;
+/*  width: 100px;
+  height: 100px;*/
+/*  overflow: hidden;*/
 }
 
 .icon__cnt {
   width: 100%;
   height: 100%;
-  background: inherit;
-  fill: currentColor;
-      transform: translateX(0); /* Crisp fix for non-retina */
-  -ms-transform: translate(.5px,-.3px); /* Crisp fix for IE */
+  /*background: inherit;*/
+/*fill: currentColor;*/
+    /*transform: translateX(0); Crisp fix for non-retina*/
+/*-ms-transform: translate(.5px,-.3px); Crisp fix for IE */
 }
 
 .icon__spinner {
